@@ -1,0 +1,342 @@
+06/09/2023 08:10:16.677 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 08:14:21.671 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 08:14:21.673 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 08:29:57.321 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 08:29:57.321 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,0,NORTH
+06/09/2023 09:31:06.802 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 09:31:06.802 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 09:54:52.473 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=1, facing=NORTH]
+06/09/2023 09:54:52.473 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,1,NORTH
+06/09/2023 09:54:57.214 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 09:58:28.710 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
+06/09/2023 09:59:00.843 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
+06/09/2023 09:59:04.546 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
+06/09/2023 09:59:29.453 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=10, y=0, facing=NORTH]
+06/09/2023 10:02:58.162 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:07:00.887 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:08:29.676 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:13:01.359 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:13:08.954 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:13:08.960 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:13:08.960 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,1,NORTH
+06/09/2023 10:13:38.983 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:22:20.197 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:23:21.951 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:23:21.980 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:23:21.981 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,2,NORTH
+06/09/2023 10:23:21.990 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:23:21.990 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,2,NORTH
+06/09/2023 10:23:53.963 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:23:53.993 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:23:53.993 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,3,NORTH
+06/09/2023 10:23:54.008 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:23:54.008 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,3,NORTH
+06/09/2023 10:24:30.764 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:24:30.769 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:24:30.769 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:24:30.772 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:24:30.772 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:27:52.059 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:27:52.063 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:27:52.064 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:27:52.066 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:27:52.066 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:28:02.729 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:28:02.734 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:02.734 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:28:02.736 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:28:02.737 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:28:03.850 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=10, facing=NORTH]
+06/09/2023 10:28:03.855 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:03.855 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:28:03.858 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:28:03.858 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:28:06.771 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:06.772 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:28:09.017 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:09.017 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:28:10.459 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:10.460 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:28:12.215 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:28:12.215 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:32:46.670 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:32:46.671 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:32:50.535 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:32:50.536 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:32:54.447 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:32:54.447 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,4,NORTH
+06/09/2023 10:32:54.449 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:32:54.449 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,4,NORTH
+06/09/2023 10:33:38.430 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 10:33:38.430 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 10:33:38.433 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:33:38.433 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 10:33:38.435 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:33:38.435 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,1,NORTH
+06/09/2023 10:34:10.059 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 10:34:10.060 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 10:34:10.092 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:34:10.093 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 10:34:10.095 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:34:10.095 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,1,NORTH
+06/09/2023 10:34:39.615 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 10:34:39.615 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 10:34:39.617 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 10:34:39.617 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ArrayIndexOutOfBoundsException: Index -1 out of bounds for length 4] with root cause
+06/09/2023 10:34:39.628 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:34:39.628 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,0,NORTH
+06/09/2023 10:35:07.103 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 10:35:07.103 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 10:35:07.105 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 10:35:07.106 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 10:35:07.108 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:35:07.108 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,0,EAST
+06/09/2023 10:40:12.196 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 10:40:12.220 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 10:40:12.224 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 10:40:12.242 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 10:40:12.242 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 10:40:12.245 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:40:12.245 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,0,WEST
+06/09/2023 10:40:35.982 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=1, y=2, facing=EAST]
+06/09/2023 10:40:35.983 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 1,2,EAST
+06/09/2023 10:40:35.986 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:40:35.986 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 2,2,EAST
+06/09/2023 10:40:35.989 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:40:35.989 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 3,2,EAST
+06/09/2023 10:40:35.992 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 10:40:35.992 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 3,2,NORTH
+06/09/2023 10:40:35.994 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:40:35.994 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 3,3,NORTH
+06/09/2023 10:40:35.996 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:40:35.996 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 10:40:48.358 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:40:48.359 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 3,4,NORTH
+06/09/2023 10:40:48.361 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:40:48.361 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,4,NORTH
+06/09/2023 10:41:25.922 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 10:41:25.933 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:41:25.933 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning lost
+06/09/2023 10:41:25.951 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:41:25.951 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning lost
+06/09/2023 10:42:10.312 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:42:10.312 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning lost
+06/09/2023 10:42:10.355 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:42:10.355 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning lost
+06/09/2023 10:43:48.005 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 10:43:48.005 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning lost
+06/09/2023 10:43:48.008 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:43:48.008 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning lost
+06/09/2023 10:43:54.293 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 10:43:54.294 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning lost
+06/09/2023 10:43:54.296 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:43:54.296 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning lost
+06/09/2023 10:43:56.681 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:43:56.681 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning lost
+06/09/2023 10:44:26.682 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=4, y=4, facing=NORTH]
+06/09/2023 10:44:26.683 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 4,4,NORTH
+06/09/2023 10:44:29.311 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:44:29.311 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 4,4,NORTH
+06/09/2023 10:44:33.414 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 10:44:33.414 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 4,4,NORTH
+06/09/2023 10:44:35.801 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:44:35.801 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 4,4,NORTH
+06/09/2023 10:45:18.321 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=5, y=4, facing=NORTH]
+06/09/2023 10:56:05.428 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=5, y=4, facing=NORTH]
+06/09/2023 10:56:16.944 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=5, y=4, facing=NORTH]
+06/09/2023 10:56:16.950 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 10:56:16.950 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 4,4,NORTH
+06/09/2023 11:05:21.598 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:05:21.598 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:16:54.136 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:16:54.136 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:17:18.322 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:17:18.322 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:19:15.134 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 11:19:15.159 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 11:19:15.215 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:19:15.217 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:23:56.771 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 11:23:56.806 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:23:56.806 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:24:11.244 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 11:24:11.279 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:24:11.279 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:32:15.360 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 11:32:15.397 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:32:15.397 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:32:15.410 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 11:32:15.410 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 11:32:15.416 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:32:15.416 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:32:15.419 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 11:32:15.419 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 11:32:15.424 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:32:15.424 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:32:15.427 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 11:32:15.427 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 11:32:15.431 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:32:15.431 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:32:15.435 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 11:32:15.435 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 11:32:15.438 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 11:32:15.438 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 11:35:34.197 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 11:35:34.232 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 11:35:34.232 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 11:35:34.240 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 11:35:34.240 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 11:35:34.248 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:35:34.248 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:35:34.251 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 11:35:34.251 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 11:35:34.255 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:35:34.255 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:35:34.257 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 11:35:34.257 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 11:35:34.261 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:35:34.262 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:35:34.263 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 11:35:34.263 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 11:35:34.268 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 11:35:34.268 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 11:35:34.272 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 11:35:34.272 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 11:35:34.274 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 11:35:34.275 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 01:06:33.379 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 01:06:33.404 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 01:06:33.458 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 01:06:33.460 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 01:06:33.472 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 01:06:33.472 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 01:06:33.482 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:33.483 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:33.486 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 01:06:33.486 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 01:06:33.493 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:33.493 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:33.496 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:06:33.496 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 01:06:33.502 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:33.502 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:33.505 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 01:06:33.505 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 01:06:33.511 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:33.511 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:33.517 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 01:06:33.517 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 01:06:33.520 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:06:33.520 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 01:06:53.650 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 01:06:53.688 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 01:06:53.688 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 01:06:53.699 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 01:06:53.699 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 01:06:53.706 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:53.706 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:53.709 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 01:06:53.709 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 01:06:53.715 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:53.715 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:53.718 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:06:53.718 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 01:06:53.723 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:53.723 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:53.725 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 01:06:53.726 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 01:06:53.731 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:06:53.731 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:06:53.736 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 01:06:53.737 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 01:06:53.739 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:06:53.740 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 01:08:03.852 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 01:08:03.883 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 01:08:03.884 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 01:08:03.893 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 01:08:03.893 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 01:08:03.899 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:08:03.900 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:08:03.902 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 01:08:03.902 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 01:08:03.908 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:08:03.908 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:08:03.910 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:08:03.910 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 01:08:03.914 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:08:03.914 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:08:03.916 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 01:08:03.916 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 01:08:03.920 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 01:08:03.920 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 01:08:03.924 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 01:08:03.924 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 01:08:03.927 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 01:08:03.927 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 03:16:12.794 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 03:28:43.328 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 03:32:37.634 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 04:07:51.264 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 04:07:51.285 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 04:07:51.332 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 04:07:51.334 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 04:07:51.346 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 04:07:51.346 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 04:07:51.354 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:07:51.354 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:07:51.357 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 04:07:51.357 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 04:07:51.361 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:07:51.362 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:07:51.364 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:07:51.364 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 04:07:51.368 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:07:51.369 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:07:51.371 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 04:07:51.371 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 04:07:51.375 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:07:51.375 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:07:51.379 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 04:07:51.380 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 04:07:51.382 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:07:51.382 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 04:08:02.979 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=1, facing=NORTH]
+06/09/2023 04:08:02.979 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,1,NORTH
+06/09/2023 04:08:03.006 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:08:03.006 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,2,NORTH
+06/09/2023 04:08:03.009 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 04:08:03.009 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,2,NORTH
+06/09/2023 04:18:53.493 - [org.apache.catalina.core.ApplicationContext.log] - [INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+06/09/2023 04:18:53.514 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=-1, y=0, facing=NORTH]
+06/09/2023 04:18:53.561 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=3, y=3, facing=NORTH]
+06/09/2023 04:18:53.562 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 3,3,NORTH
+06/09/2023 04:18:53.573 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 04:18:53.573 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 04:18:53.580 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:18:53.580 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:18:53.583 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Received turn left request
+06/09/2023 04:18:53.584 - [au.com.dovoru.robot.controller.RobotController.left] - [INFO] - Turn left request returning 0,0,WEST
+06/09/2023 04:18:53.588 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:18:53.588 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:18:53.590 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:18:53.590 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,1,NORTH
+06/09/2023 04:18:53.595 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:18:53.595 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:18:53.597 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Received turn right request
+06/09/2023 04:18:53.597 - [au.com.dovoru.robot.controller.RobotController.right] - [INFO] - Turn right request returning 0,0,EAST
+06/09/2023 04:18:53.602 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 04:18:53.602 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 04:18:53.606 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=SOUTH]
+06/09/2023 04:18:53.606 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,SOUTH
+06/09/2023 04:18:53.608 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:18:53.608 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,0,SOUTH
+06/09/2023 04:19:11.421 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=1, facing=NORTH]
+06/09/2023 04:19:11.422 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,1,NORTH
+06/09/2023 04:19:11.451 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Received move request
+06/09/2023 04:19:11.451 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 0,2,NORTH
+06/09/2023 04:19:11.454 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 04:19:11.454 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 0,2,NORTH
+06/09/2023 04:33:40.518 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
+06/09/2023 04:33:51.621 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
+06/09/2023 04:35:12.023 - [org.apache.catalina.core.StandardWrapperValve.invoke] - [SEVERE] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.StringIndexOutOfBoundsException: Range [11, 10) out of bounds for length 10] with root cause
