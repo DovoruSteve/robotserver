@@ -7,7 +7,7 @@ This presents a REST API for the robotclient to consume
 
 Installation
 
-	Java 17 or newer is required to to compile and / or run the robot server
+	Java 17 or newer is required to be installed to compile and / or run the robot server
 
 	Maven 3 or newer is required only if you want to recompile it and run the unit tests
 
