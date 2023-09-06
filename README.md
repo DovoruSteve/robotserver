@@ -5,24 +5,12 @@ This presents a REST API for the robotclient to consume
 Installation
 	Java 17 or newer to compile and / or run the robot server
 	Maven 3 or newer if you want to recompile it and run the unit tests
-	Download / Clone the repo. I've included the jar so you can run it without rebuilding it
-
-Instructions
-	This is a console application, so expect to enter the commands and see the output
-	The commands are:
-	    PLACE x,y,direction
-	    	  This allows you to place the robot onto the table, which defaults to 5x5.
-		  x and y can each take a value between 0 and 4 inclusive.
-		  The direction can only be NORTH, EAST, SOUTH, or WEST
-            MOVE
-		This moves the robot one position in the direction it is currently facing.
-		If such a move would cause the robot to fall off the table, the move is ignored.
-	    LEFT
-		This turns the robot 90 degrees to the left
-	    RIGHT
-		This turns the robot 90 degrees to the right
-	    REPORT
-	        This displays the current position of the robot or "MISSING" if it isn't on the table.
+	Download / clone the repo. I've included the jar so you can run it without rebuilding it
+	Once downloaded, run it with
+	     java -jar target/robot-0.0.1.jar
+	Then download / clone the robotclient from
+	     https://github.com/DovoruSteve/robotclient.git
+	and see its README
 		
 Assumptions
 	The only time the Robot is “MISSING” is from when the REST server is started up until a valid PLACE
