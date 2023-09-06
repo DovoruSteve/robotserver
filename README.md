@@ -16,7 +16,7 @@ Installation
 	Once downloaded (and extracted, if you downloaded the zip), in a shell (or command window
 	on Windows), run it by changing into the robotserver directory and running 
 
-	     java -jar target/robot-0.0.1.jar
+	     java -jar target/robotserver-0.0.1.jar
 
 	Then download / clone the robotclient from
 
@@ -54,20 +54,19 @@ Included
 	but it is done to show how it should be developed.
 
 
+	Basic authentication on the REST API
+
+
 Not included / Out of Scope
-
-	Securing the REST API. Implementing a security layer was not specified in the requirements,
-	and therefore, for a coding exercise where the server and client are likely to run on the same server,
-	and there’s no sensitive data exchanged, it has not been included.
-
-	Normally I would add at least a user/password style authentication to get a token to pass on all subsequent
-	requests across the REST API. Also I’d change it to use HTTPS instead of HTTP. 
-
 
 	When the server runs, it tries to access a Config Server at localhost:8888. It has sensible defaults so I
 	didn't bother including it as its just a Spring Boot Config Server. Normally I do use these because they keep
-	the configs all in one place, which can be protected as they often contain credentials.
+	the configs all in one place, which can be protected as they often contain credentials (e.g. for the REST
+	authentication).
 
 	The robot is not persisted across server restarts. I stopped short of using any sort of database and
 	JPA etc as the challenge didn’t require it. I did put in a repository interface to mock showing where
 	the data layer would be implemented, if required.
+
+	Enhancing the security beyond basic.
+     

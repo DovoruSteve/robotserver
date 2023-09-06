@@ -1,5 +1,6 @@
 au/com/dovoru/common/logging/RollingLogger.class
 au/com/dovoru/common/logging/LoggerFormatter.class
+au/com/dovoru/robot/security/SecurityConfig.class
 au/com/dovoru/robot/service/RobotServiceImpl$1.class
 au/com/dovoru/robot/service/RobotServiceImpl.class
 au/com/dovoru/robot/controller/MissingParameterException.class
