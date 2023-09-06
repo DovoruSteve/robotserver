@@ -7,13 +7,14 @@ This presents a REST API for the robotclient to consume
 
 Installation
 
-	Java 17 or newer to compile and / or run the robot server
+	Java 17 or newer is required to to compile and / or run the robot server
 
-	Maven 3 or newer if you want to recompile it and run the unit tests
+	Maven 3 or newer is required only if you want to recompile it and run the unit tests
 
 	Download / clone the repo. I've included the jar so you can run it without rebuilding it
 
-	Once downloaded, run it by changing into the robotserver directory and running 
+	Once downloaded (and extracted, if you downloaded the zip), in a shell (or command window
+	on Windows), run it by changing into the robotserver directory and running 
 
 	     java -jar target/robot-0.0.1.jar
 
