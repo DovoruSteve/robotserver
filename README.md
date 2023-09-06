@@ -13,7 +13,7 @@ Installation
 
 	Download / clone the repo. I've included the jar so you can run it without rebuilding it
 
-	Once downloaded, run it with
+	Once downloaded, run it by changing into the robotserver directory and running 
 
 	     java -jar target/robot-0.0.1.jar
 
