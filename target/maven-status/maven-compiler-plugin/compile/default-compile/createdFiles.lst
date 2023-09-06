@@ -1,0 +1,15 @@
+au/com/dovoru/common/logging/RollingLogger.class
+au/com/dovoru/common/logging/LoggerFormatter.class
+au/com/dovoru/robot/service/RobotServiceImpl$1.class
+au/com/dovoru/robot/service/RobotServiceImpl.class
+au/com/dovoru/robot/controller/MissingParameterException.class
+au/com/dovoru/robot/model/Direction.class
+au/com/dovoru/robot/controller/RobotResponseEntityExceptionHandler.class
+au/com/dovoru/robot/model/Robot.class
+au/com/dovoru/robot/repository/RobotRepository.class
+au/com/dovoru/robot/controller/PlacementRequest.class
+au/com/dovoru/robot/service/RobotService.class
+au/com/dovoru/robot/TruckRobotApplication.class
+au/com/dovoru/robot/controller/ApiError.class
+au/com/dovoru/robot/repository/RobotRepositoryImpl.class
+au/com/dovoru/robot/controller/RobotController.class
