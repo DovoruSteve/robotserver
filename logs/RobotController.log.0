@@ -413,3 +413,8 @@
 06/09/2023 08:55:11.329 - [au.com.dovoru.robot.controller.RobotController.move] - [INFO] - Move request returning 3,3,NORTH
 06/09/2023 08:55:11.344 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
 06/09/2023 08:55:11.344 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 09:30:55.147 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Received report request
+06/09/2023 09:30:55.147 - [au.com.dovoru.robot.controller.RobotController.report] - [INFO] - Report request returning 3,3,NORTH
+06/09/2023 09:31:42.413 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=0, y=0, facing=NORTH]
+06/09/2023 09:31:42.413 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Place request returning 0,0,NORTH
+06/09/2023 09:31:52.720 - [au.com.dovoru.robot.controller.RobotController.place] - [INFO] - Received Place request PlacementRequest [x=10, y=0, facing=NORTH]

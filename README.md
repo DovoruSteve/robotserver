@@ -36,11 +36,14 @@ Included
 
 	Unit Tests for both the server and the client 
 
+
 	The server can be tested using Swagger at the URL http://localhost:8080/swagger-ui/index.html
 
 	The YAML spec for the REST API is at http://localhost:8080/api-docs.yaml
 
 	The JSON spec for the REST API is at http://localhost:8080/api-docs
+
+	For access to each of these links, you'll need to know its kizzie / HappyHippo 
 
 
 	Logging is included because in an API it's important to log the given data and the response
