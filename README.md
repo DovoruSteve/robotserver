@@ -64,6 +64,8 @@ Not included / Out of Scope
 	requests across the REST API. Also I’d change it to use HTTPS instead of HTTP. 
 
 
+	When the server runs, it tries to access a Config Server at localhost:8888. It has sensible defaults so I didn't bother including it as its just a Spring Boot Config Server. Normally I do use these because they keep the configs all in one place, which can be protected as they often contain credentials.
+
 	The robot is not persisted across server restarts. I stopped short of using any sort of database and
 	JPA etc as the challenge didn’t require it. I did put in a repository interface to mock showing where
 	the data layer would be implemented, if required.
