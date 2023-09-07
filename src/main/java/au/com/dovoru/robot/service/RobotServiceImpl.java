@@ -63,7 +63,7 @@ public class RobotServiceImpl implements RobotService {
 				break;
 			case WEST:
 				if (x > 0) {
-					robot.setY(y-1);
+					robot.setX(x-1);
 				}
 				break;
 			}
