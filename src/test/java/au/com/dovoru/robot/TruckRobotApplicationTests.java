@@ -37,11 +37,11 @@ class TruckRobotApplicationTests {
 	@Autowired 
 	private RobotService robotService;
 	
-	private final String incorrectXPlaceJSON = "{\"x\": \"10\", \"y\": \"0\", \"facing\": \"NORTH\"}";
-	private final String missingDirectionJSON = "{\"x\": \"0\", \"y\": \"0\"}";
-	private final String correct44NPlacementJSON = "{\"x\": \"4\", \"y\": \"4\", \"facing\": \"NORTH\"}";
+	private final String incorrectXPlaceJSON = "{\"x\": -2, \"y\": 0, \"facing\": \"NORTH\"}";
+	private final String missingDirectionJSON = "{\"x\": 0, \"y\": 0}";
+	private final String correct44NPlacementJSON = "{\"x\": 4, \"y\": 4, \"facing\": \"NORTH\"}";
 	private final String correct44NPlacementResponseJSON = "{\"x\": 4, \"y\": 4, \"facing\": \"NORTH\", \"lost\": false}";
-	private final String correct00PlacementJSON = "{\"x\": \"0\", \"y\": \"0\", \"facing\": \"NORTH\"}";
+	private final String correct00PlacementJSON = "{\"x\": 0, \"y\": 0, \"facing\": \"NORTH\"}";
 	private final String correct00NPlacementResponseJSON = "{\"x\": 0, \"y\": 0, \"facing\": \"NORTH\", \"lost\": false}";
 	private final String correct00WPlacementResponseJSON = "{\"x\": 0, \"y\": 0, \"facing\": \"WEST\", \"lost\": false}";
 	private final String correct01NPlacementResponseJSON = "{\"x\": 0, \"y\": 1, \"facing\": \"NORTH\", \"lost\": false}";
@@ -184,8 +184,6 @@ class TruckRobotApplicationTests {
 			System.out.println("Exception: " + e);
 		}
 	}
-
-
 
 	/**
 	 * PLACE off the board causing illegal argument exception

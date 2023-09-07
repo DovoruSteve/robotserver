@@ -53,18 +53,18 @@ Included
 	Error handling is included as good error reporting is critical in an API.
 
 
+	Basic authentication on the REST API
+
+
 	It's probably overkill using services and repositories and models etc for such a simple project
 	but it is done to show how it should be developed.
-
-
-	Basic authentication on the REST API
 
 
 Not included / Out of Scope
 
 	When the server runs, it tries to access a Config Server at localhost:8888. It has sensible defaults so I
-	didn't bother including it as its just a Spring Boot Config Server. Normally I do use these because they keep
-	the configs all in one place, which can be protected as they often contain credentials (e.g. for the REST
+	didn't bother including it as its just a Spring Boot Config Server. Normally I do use one because it keeps
+	the configs in one place, which can be protected as they often contain credentials (e.g. for the REST
 	authentication).
 
 	The robot is not persisted across server restarts. I stopped short of using any sort of database and

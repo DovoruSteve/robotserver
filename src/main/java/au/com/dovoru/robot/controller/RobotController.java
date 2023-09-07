@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import au.com.dovoru.common.logging.RollingLogger;
 import au.com.dovoru.robot.model.Robot;
 import au.com.dovoru.robot.service.RobotService;
+import jakarta.validation.Valid;
 /**
  * Rest API for controlling the robot
  * This class accepts the requests and calls the RobotService to carry them out. Each request returns the current state of the robot.
@@ -68,16 +69,14 @@ public class RobotController {
 	
 	/**
 	 * Place a new robot on the table
-	 * Note that @Valid is not used because I want to take the max valud for the coords from a dynamic value
 	 * @param placementRequest The x,y coordinates at which to place the robot and the direction it should be facing. 
-	 * If the placementRequest is not valid, an IllegalArgumentException or MissingParameterException is thrown containing the reason
+	 * If the placementRequest is not valid, an IllegalArgumentException or a MethodArgumentNotValidException is thrown containing the reason
 	 * @return The robot in the given position
 	 */
 	@PostMapping("/place")
-	public Robot place(@RequestBody PlacementRequest placementRequest) {
+	public Robot place(@Valid @RequestBody PlacementRequest placementRequest) {
 		logger.info("Received Place request "+placementRequest);
-		placementRequest.validate(tableSize);	//  org.springframework.http.converter.HttpMessageNotReadableExceptionThrows a runtime exception if not valid
-		Robot robot = robotService.place(placementRequest.getX(),placementRequest.getY(),placementRequest.getFacing());
+		Robot robot = robotService.place(placementRequest.getX(tableSize),placementRequest.getY(tableSize),placementRequest.getFacing());
 		logger.info("Place request returning "+robot.report());
 		return robot;
 	}
