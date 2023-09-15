@@ -66,11 +66,6 @@ Included
 
 Not included / Out of Scope
 
-	When the server runs, it tries to access a Config Server at localhost:8888. It has sensible defaults so I
-	didn't bother including it as its just a Spring Boot Config Server. Normally I do use one because it keeps
-	the configs in one place, which can be protected as they often contain credentials (e.g. for the REST
-	authentication).
-
 	The robot is not persisted across server restarts. I stopped short of using any sort of database and
 	JPA etc as the challenge didn’t require it. I did put in a repository interface to mock showing where
 	the data layer would be implemented, if required.
