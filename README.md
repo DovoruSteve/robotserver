@@ -7,16 +7,20 @@ This presents a REST API for the robotclient to consume
 
 Installation
 
+	The config project is required to be installed and running first. It is at the URL
+	    https://github.com/DovoruSteve/config.git
+	   
 	Java 17 or newer is required to be installed to compile and / or run the robot server
 
 	Maven 3 or newer is required only if you want to recompile it and run the unit tests
 
 	Download / clone the repo. I've included the jar so you can run it without rebuilding it
 
-	Once downloaded (and extracted, if you downloaded the zip), in a shell (or command window
-	on Windows), run it by changing into the robotserver directory and running 
+	Once downloaded (and extracted, if you downloaded the zip), make sure the config server is
+	running first and then in a new shell (or command window on Windows), changing into the
+	robotserver directory and run 
 
-	     java -jar target/robotserver-0.0.1.jar
+	     java -jar target/robotserver-0.0.2.jar
 
 	Then download / clone the robotclient from
 
@@ -73,3 +77,10 @@ Not included / Out of Scope
 
 	Enhancing the security beyond basic.
      
+Change History
+
+		v0.0.2 Fixed unit test use of Mockito and removed test order dependency so tests are independent
+				Added findById to REST API to throw a Not Found exception example
+				No relies on robotserver.properties file to get username and password for API although these should
+				be expanded upon 
+		v0.0.1 Initial version 

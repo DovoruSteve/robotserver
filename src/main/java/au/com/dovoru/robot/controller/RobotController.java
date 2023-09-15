@@ -6,15 +6,20 @@ import java.util.logging.Logger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.server.ResponseStatusException;
 
 import au.com.dovoru.common.logging.RollingLogger;
 import au.com.dovoru.robot.model.Robot;
+import au.com.dovoru.robot.model.RobotResourceNotFoundException;
 import au.com.dovoru.robot.service.RobotService;
+import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
 /**
  * Rest API for controlling the robot
@@ -32,7 +37,6 @@ import jakarta.validation.Valid;
 public class RobotController {
 	private final Logger logger;
 	private final int tableSize;
-	@Autowired
 	private RobotService robotService;
 	
 	/** 
@@ -49,7 +53,8 @@ public class RobotController {
 	public RobotController(@Value("${logFileDirectory:logs}") String logFileDirectory, 
 			@Value("${numLogFiles:5}") int numLogFiles, 
 			@Value("${logFileSize:1000000}") int logFileSize,
-			@Value("${tableSize:5}") int tableSize) {
+			@Value("${tableSize:5}") int tableSize,
+			@Autowired RobotService robotService) {
 		String logFile = logFileDirectory+File.separator+RobotController.class.getSimpleName()+".log";
 		try {
 			RollingLogger.init(logFile, logFileSize, numLogFiles);
@@ -58,15 +63,8 @@ public class RobotController {
 		}
 		logger = Logger.getLogger(RobotController.class.getSimpleName());
 		this.tableSize = tableSize;
+		this.robotService = robotService;
 	}
-	/**
-	 * Constructor used for unit testing
-	 * @param robotService
-	 */
-	public RobotController() {
-		this("logs",5,100000,5);
-	}
-	
 	/**
 	 * Place a new robot on the table
 	 * @param placementRequest The x,y coordinates at which to place the robot and the direction it should be facing. 
@@ -74,7 +72,7 @@ public class RobotController {
 	 * @return The robot in the given position
 	 */
 	@PostMapping("/place")
-	public Robot place(@Valid @RequestBody PlacementRequest placementRequest) {
+	Robot place(@Valid @RequestBody PlacementRequest placementRequest) {
 		logger.info("Received Place request "+placementRequest);
 		Robot robot = robotService.place(placementRequest.getX(tableSize),placementRequest.getY(tableSize),placementRequest.getFacing());
 		logger.info("Place request returning "+robot.report());
@@ -87,7 +85,7 @@ public class RobotController {
 	 * @return The robot in its new position. 
 	 */
 	@PutMapping("/move")
-	public Robot move() {
+	Robot move() {
 		logger.info("Received move request");
 		Robot robot = robotService.move();
 		logger.info("Move request returning "+robot.report());
@@ -99,7 +97,7 @@ public class RobotController {
 	 * @return The robot in its new direction. 
 	 */
 	@PutMapping("/right")
-	public Robot right() {
+	Robot right() {
 		logger.info("Received turn right request");
 		Robot robot = robotService.right();
 		logger.info("Turn right request returning "+robot.report());
@@ -111,7 +109,7 @@ public class RobotController {
 	 * @return The robot in its new direction. 
 	 */
 	@PutMapping("/left")
-	public Robot left() {
+	Robot left() {
 		logger.info("Received turn left request");
 		Robot robot = robotService.left();
 		logger.info("Turn left request returning "+robot.report());
@@ -121,24 +119,20 @@ public class RobotController {
 	 * @return The robot in its current position and direction
 	 */
 	@GetMapping("/report")
-	public Robot report() {
+	Robot report() {
 		logger.info("Received report request");
 		Robot robot = robotService.report();
 		logger.info("Report request returning "+robot.report());
 		return robot;
-	}
+	}	
 	
-	public Logger getLogger() {
-		return logger;
+	@GetMapping(value="/{id}")
+	public Robot findById(@PathVariable("id") Long id, HttpServletResponse response) {
+		try {
+			Robot robot = robotService.findById(id);
+			return robot;
+		} catch (RobotResourceNotFoundException ex) {
+			throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Robot "+id+" not found", ex);
+		}
 	}
-	public int getTableSize() {
-		return tableSize;
-	}
-	public RobotService getRobotService() {
-		return robotService;
-	}
-	public void setRobotService(RobotService robotService) {
-		this.robotService = robotService;
-	}
-	
 }

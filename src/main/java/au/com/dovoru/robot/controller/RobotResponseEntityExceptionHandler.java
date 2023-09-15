@@ -36,7 +36,6 @@ public class RobotResponseEntityExceptionHandler extends ResponseEntityException
 		ApiError error = new ApiError(HttpStatus.BAD_REQUEST.value(), ex.getMessage());
 		logger.log(Level.WARNING, "Caught exception {0} - returning status {1}",
 				new Object[] { ex.getMessage(), HttpStatus.BAD_REQUEST });
-		//System.out.println( "Caught IllegalArgument exception "+ex.getMessage()+" - returning status "+HttpStatus.BAD_REQUEST );
 		return handleExceptionInternal(ex, error, new HttpHeaders(), HttpStatus.BAD_REQUEST, request);
 	}
 	@Override
@@ -56,7 +55,6 @@ public class RobotResponseEntityExceptionHandler extends ResponseEntityException
 		ApiError apiError = new ApiError(HttpStatus.BAD_REQUEST.value(), errorMessage.toString());
 		logger.log(Level.WARNING, "Caught exception {0} - returning status {1}",
 				new Object[] { ex.getMessage(), HttpStatus.BAD_REQUEST });
-		//System.out.println( "Caught MethodNotValid exception "+ex.getMessage()+" - returning status "+HttpStatus.BAD_REQUEST );
 		return new ResponseEntity<>(apiError, status);
 	}
 }

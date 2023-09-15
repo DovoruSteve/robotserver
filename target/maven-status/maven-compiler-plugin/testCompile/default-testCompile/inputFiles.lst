@@ -1,1 +1,2 @@
-/home/stephen/workspace/robotserver/src/test/java/au/com/dovoru/robot/TruckRobotApplicationTests.java
+/home/stephen/workspace/robotserver/src/test/java/au/com/dovoru/robot/TruckRobotControllerWhenNotPlacedTests.java
+/home/stephen/workspace/robotserver/src/test/java/au/com/dovoru/robot/TruckRobotControllerWhenPlacedTests.java

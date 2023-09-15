@@ -1,1 +1,2 @@
-au/com/dovoru/robot/TruckRobotApplicationTests.class
+au/com/dovoru/robot/TruckRobotControllerWhenNotPlacedTests.class
+au/com/dovoru/robot/TruckRobotControllerWhenPlacedTests.class

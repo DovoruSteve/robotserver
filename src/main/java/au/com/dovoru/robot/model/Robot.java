@@ -1,16 +1,12 @@
 package au.com.dovoru.robot.model;
 
-import java.io.Serializable;
-
 /** 
  * Create the singleton Robot object as a pseudo data store
  * @author stephen
  *
  */
-public class Robot implements Serializable {
-	private static final long serialVersionUID = 1L;
-	
-	private static final Robot INSTANCE = new Robot(0,0,null, true);
+public class Robot {
+	private static final Robot INSTANCE = new Robot(0, 0, null, true);
 	public static Robot getInstance() {
 		return INSTANCE;
 	}
@@ -18,7 +14,7 @@ public class Robot implements Serializable {
 	private int x, y;			// Coords of the current position on the table
 	private Direction facing; 	// The direction the robot is facing. If this is null, the robot is lost!
 	private boolean lost;
-	
+
 	/**
 	 * Create the robot's position by providing its x and y coords and
 	 * the direction it is facing

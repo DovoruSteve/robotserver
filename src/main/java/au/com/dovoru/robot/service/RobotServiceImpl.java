@@ -6,6 +6,7 @@ import org.springframework.stereotype.Service;
 
 import au.com.dovoru.robot.model.Direction;
 import au.com.dovoru.robot.model.Robot;
+import au.com.dovoru.robot.model.RobotResourceNotFoundException;
 import au.com.dovoru.robot.repository.RobotRepository;
 
 /**
@@ -107,5 +108,11 @@ public class RobotServiceImpl implements RobotService {
 	public Robot report() {
 		return robotRepository.find();
 	}
-
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public Robot findById(Long id) throws RobotResourceNotFoundException {
+		throw new RobotResourceNotFoundException("No robot with given id "+id);
+	}
 }

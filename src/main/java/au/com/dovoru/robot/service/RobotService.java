@@ -2,6 +2,7 @@ package au.com.dovoru.robot.service;
 
 import au.com.dovoru.robot.model.Direction;
 import au.com.dovoru.robot.model.Robot;
+import au.com.dovoru.robot.model.RobotResourceNotFoundException;
 
 /**
  * Business logic for the robot controls is handled by this interface
@@ -40,4 +41,9 @@ public interface RobotService {
 	 * @return The robot in its current state
 	 */
 	Robot report();
+	/**
+	 * Find by robot id
+	 * @throws RobotResourceNotFoundException if no robot found with the given id
+	 */
+	Robot findById(Long id) throws RobotResourceNotFoundException;
 }

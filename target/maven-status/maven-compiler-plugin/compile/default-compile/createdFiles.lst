@@ -7,6 +7,7 @@ au/com/dovoru/robot/model/Direction.class
 au/com/dovoru/robot/controller/RobotResponseEntityExceptionHandler.class
 au/com/dovoru/robot/model/Robot.class
 au/com/dovoru/robot/repository/RobotRepository.class
+au/com/dovoru/robot/model/RobotResourceNotFoundException.class
 au/com/dovoru/robot/controller/PlacementRequest.class
 au/com/dovoru/robot/service/RobotService.class
 au/com/dovoru/robot/TruckRobotApplication.class
