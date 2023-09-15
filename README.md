@@ -81,6 +81,6 @@ Change History
 
 		v0.0.2 Fixed unit test use of Mockito and removed test order dependency so tests are independent
 				Added findById to REST API to throw a Not Found exception example
-				No relies on robotserver.properties file to get username and password for API although these should
-				be expanded upon 
+				Now relies on robotserver.properties from the confg server to get username and password 
+				for the API although these should be expanded upon 
 		v0.0.1 Initial version 
